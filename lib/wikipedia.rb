@@ -36,8 +36,8 @@ module Wikipedia
 
   configure do
     protocol  'https'
-    domain    'en.wikipedia.org'
-    path      'w/api.php'
+    domain    'runescape.wikia.com'
+    path      'api.php'
     user_agent(
       'wikipedia-client/1.7 (https://github.com/kenpratt/wikipedia-client)'
     )
